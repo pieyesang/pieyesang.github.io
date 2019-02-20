@@ -1072,3 +1072,24 @@ header {
 #footer .list-socials li > a > i.fa {
 	font-size: 14px;
 }
+
+#contact-info {
+	background-image: url("/images/contact.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*width: 1200px;*/
+	/*left: 50%;*/
+	/*margin-left: -600px;*/
+}
+
+/*#new-contact-info {*/
+	/*padding: 0;*/
+/*}*/
+
+/*#new-contact-info .container {*/
+	/*position: absolute;*/
+	/*left: 0;*/
+	/*right: 0;*/
+	/*bottom: 120px;*/
+/*}*/
