@@ -121,10 +121,10 @@
 
 	function hasScrolled() {
 	  var st = $(this).scrollTop();
-	  
+
 	  if(Math.abs(lastScrollTop - st) <= delta)
 	      return;
-	  
+
 	  if (st > lastScrollTop && st > navbarHeight){
 	      // Scroll Down
 	      $('header').removeClass('nav-down').addClass('nav-up');
@@ -134,7 +134,7 @@
 	          $('header').removeClass('nav-up').addClass('nav-down');
 	      }
 	  }
-	  
+
 	  lastScrollTop = st;
 	}
 
@@ -143,7 +143,7 @@
 /* ------ Google Maps script ------ */
 
 function myMap() {
-    var myLatlng = {lat: 45.91498, lng: 14.368148};
+    var myLatlng = {lat: 24.222502, lng: 120.654502};
 
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 12,
@@ -187,6 +187,6 @@ $(document).ready(function () {
 	  $bgobj.css({ backgroundPosition: coords });
 	});
 
-	});    
+	});
 	}
 });
